@@ -10,7 +10,7 @@
 <div class="container">
 <nav class="nav">
  <ul class="ul">
-	<li><a href="/"></i>Главная</a></li>
+	<li><a href="/index"></i>Главная</a></li>
 	<li><a href="/woman">Женская Одежда</a></li>
 	<li><a href="/child">Одежда для детей</a></li>
 	<li><a href="/dostavka">Оплата</a></li>

@@ -1,27 +1,11 @@
-<html>
-<head>
-<title>Женская одежда - Women's clothing</title>
-<link href="css/style — woman.css" rel="stylesheet" type="text/css" media="all" />
-</head>
-<body>
-<div class="fonpolosa">
-</div>
-<div class="banner-top">
-<div class="container">
-<nav class="nav">
- <ul>
-<li><a href="/"></i>Главная</a></li>
-<li><a href="/woman">Женская Одежда</a></li>
-<li><a href="/child">Одежда для детей</a></li>
-<li><a href="/dostavka">Оплата</a></li>
-<li><a href="/korzina">Корзина</a></li>
+@extends('layouts.header')
 
-</ul>
-</nav>
-</div>
-</div>
-<div class="fonpolosa">
-</div>
+
+@section('title')
+Женская одежда - Women's clothing
+@endsection
+@section('tovar')
+<div id="tovar">
 <section class="tovar">
 <div class="polozenie">
 <div class="pictovar">
@@ -232,7 +216,7 @@
 <article2>
 <a  class="image"><img src="images/pic23.jpg" alt="" /></a>
 <header>
-<span class="tooltip" data-title="Описание"><h3><a href="#">Спортивный костюм тройка H&P</a></h3></span>
+<span class="tooltip" data-title="Описание"><h3><a href="#">Спортивный костюм  H&P</a></h3></span>
 </header>
 <p>Цена: 3200$</p>
 <button class="knopka">Избранное</button>
@@ -334,5 +318,5 @@
 </article2>
 </div>
 </section>
-</body>
-</html>
+</div>
+@endsection

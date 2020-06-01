@@ -1,26 +1,10 @@
-<html>
-<head>
-<title>Одежда для детей - Women's clothing</title>
-<link href="css/style — woman.css" rel="stylesheet" type="text/css" media="all" />
-</head>
-<body>
-<div class="fonpolosa">
-</div>
-<div class="banner-top">
-<div class="container">
-<nav class="nav">
- <ul>
-<li><a href="/"></i>Главная</a></li>
-<li><a href="/woman">Женская Одежда</a></li>
-<li><a href="/child">Одежда для детей</a></li>
-<li><a href="/dostavka">Оплата</a></li>
-<li><a href="/korzina">Корзина</a></li>
-</ul>
-</nav>
-</div>
-</div>
-<div class="fonpolosa">
-</div>
+@extends('layouts.header')
+
+@section('title')
+Одежда для детей - Women's clothing
+@endsection
+@section('tovar')
+<div id="tovar">
 <section class="tovar">
 <div class="polozenie">
 <div class="pictovar">
@@ -252,5 +236,5 @@
 </article2>
 </div>
 </section>
-</body>
-</html>
+</div>
+@endsection
