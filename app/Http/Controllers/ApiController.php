@@ -30,4 +30,12 @@ class ApiController extends Controller
     {
       return view('korzina');
     }
+    public function getBaskets(Request $request)
+    {
+      return (new BasketController())->show();
+    }
+    public function getProducts(Request $request)
+    {
+      return (new ProductController())->show();
+    }
 }

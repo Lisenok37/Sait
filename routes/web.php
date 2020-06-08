@@ -18,3 +18,5 @@ Route::get('/woman', 'ApiController@womanAction');
 Route::get('/child', 'ApiController@childAction');
 Route::get('/dostavka', 'ApiController@dostavkaAction');
 Route::get('/korzina', 'ApiController@korzinaAction');
+Route::get('/getBaskets', 'ApiController@getBaskets');
+Route::get('/getProducts', 'ApiController@getProducts');
