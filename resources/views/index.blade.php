@@ -55,7 +55,10 @@
 		<article>
 			<a  class="image"><img src="images/pic04.jpg" alt="" /></a>
 			<header>
-				<span class="tooltip" data-title="Описание"><h3><a >Блузка H&P</a></h3></span>
+			<div class="opisanie">
+				Описание
+			</div>
+				<h3><a >Блузка H&P</a></h3>
 			</header>
 			<p>Цена: 700$</p>
 			<button class="knopka">Избранное</button>
@@ -64,7 +67,10 @@
 		<article>
 			<a  class="image"><img src="images/pic02.jpg" alt="" /></a>
 			<header>
-				<span class="tooltip" data-title="Описание"><h3><a >Платье Hice</a></h3></span>
+			<div class="Opisanie">
+				Описание
+			</div>
+				<h3><a >Платье Hice</a></h3>
 			</header>
 			<p>Цена: 1700$</p>
 			<button class="knopka">Избранное</button>
@@ -73,7 +79,10 @@
 		<article2>
 			<a  class="image"><img src="images/pic03.jpg" alt="" /></a>
 			<header>
-				<span class="tooltip" data-title="Описание"><h3><a >Платье Diamond</a></h3></span>
+			<div class="Opisanie">
+				Описание
+			</div>
+				<h3><a >Платье Diamond</a></h3>
 			</header>
 			<p>Цена: 1200$</p>
 			<button class="knopka">Избранное</button>
@@ -82,7 +91,10 @@
 		<article2>
 			<a  class="image"><img src="images/pic05.jpg" alt="" /></a>
 			<header>
-				<span class="tooltip" data-title="Описание"><h3><a >Комбинезон Armany</a></h3></span>
+			<div class="Opisanie">
+				Описание
+			</div>
+				<h3><a >Комбинезон Armany</a></h3>
 			</header>
 			<p>Цена: 1500$</p>
 			<button class="knopka">Избранное</button>
@@ -91,7 +103,10 @@
 		<article2>
 			<a class="image"><img src="images/pic06.jpg" alt="" /></a>
 			<header>
-				<span class="tooltip" data-title="Описание"><h3><a>Платье Armany</a></h3></span>
+			<div class="Opisanie">
+				Описание
+			</div>
+				<h3><a>Платье Armany</a></h3>
 			</header>
 			<p>Цена: 1800$</p>
 			<button class="knopka">Избранное</button>
@@ -100,7 +115,10 @@
 		<article2>
 			<a  class="image"><img src="images/pic07.jpg" alt="" /></a>
 			<header>
-				<span class="tooltip" data-title="Описание"><h3><a >Платье  Glory</a></h3></span>
+			<div class="Opisanie">
+				Описание
+			</div>
+				<h3><a >Платье  Glory</a></h3>
 			</header>
 			<p>Цена: 900$</p>
 			<button class="knopka">Избранное</button>
@@ -109,7 +127,10 @@
 		<article2>
 			<a  class="image"><img src="images/pic001.jpg" alt="" /></a>
 			<header>
-				<span class="tooltip" data-title="Описание"><h3><a >Блузка Diamond</a></h3></span>
+			<div class="opisanie">
+				Описание
+			</div>
+				<h3><a >Блузка Diamond</a></h3>
 			</header>
 			<p>Цена: 800$</p>
 			<button class="knopka">Избранное</button>
@@ -118,7 +139,10 @@
 		<article2>
 			<a  class="image"><img src="images/pic01.jpg" alt="" /></a>
 			<header>
-				<span class="tooltip" data-title="Описание"><h3><a>Костюм "Тройка" Armany</a></h3></span>
+			<div class="Opisanie">
+				Описание
+			</div>
+				<h3><a>Костюм "Тройка" Armany</a></h3>
 			</header>
 			<p>Цена: 2600$</p>
 			<button class="knopka">Избранное</button>
@@ -127,4 +151,4 @@
 	</div>
 </section>
 </body>
-</html>
+</html>s

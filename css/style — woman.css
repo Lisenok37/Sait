@@ -1,8 +1,8 @@
 ﻿
 button.knopka {
-color: #000; 
-background: #CCA77A; 
-padding: 1px; 
+color: #000;
+background: #CCA77A;
+padding: 1px;
 border-radius: 5px;
 border: 2px solid #80694D;
 width: 150px;
@@ -11,8 +11,8 @@ font-family: 'PlayfairDisplay-Regular';
 font-size: 21px;
 margin-top: 10;
 }
-button.knopka:hover { 
-background: #8C7354; 
+button.knopka:hover {
+background: #8C7354;
 }
 .tooltip{
 color:#000;
@@ -216,9 +216,9 @@ font-family: 'Lato-Regular';
 background:#fff;
 }
 h1,h2,h3,h4,h5,h6{
-margin:0;	
+margin:0;
 font-family: 'PlayfairDisplay-Regular';
-}	
+}
 p{
 margin:0;
 padding: 20px 0px 0px 0px;
@@ -229,7 +229,7 @@ margin:0;
 padding:0;
 }
 label{
-margin:0;	
+margin:0;
 }
 .fonpolosa{
 padding:8px 0 14px 0;
@@ -323,6 +323,7 @@ padding: 20px 82px 0px 80px;
 .tovar article {
 display: inline-block;
 width: 18em;
+height: 700px;
 background: #e6be8e;
 text-align: center;
 padding: 0px 20px 0px 20px;
@@ -331,6 +332,7 @@ margin: 10px 14px 0px 28px;
 .tovar article2 {
 display: inline-block;
 width: 18em;
+height: 700px;
 background: #e6be8e;
 text-align: center;
 padding: 0px 20px 0px 20px;
@@ -364,7 +366,11 @@ font-family: monospace;
 color: #fff;
 text-decoration: none;
 font-size:25px;
-{
-  
-  
-  
+}
+.Opisanie{
+height: 150px;
+margin-bottom: 5;
+width: 360;
+font-family: monospace;
+font-size: 18px;
+}

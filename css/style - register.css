@@ -199,7 +199,6 @@ top:0px;
 html{
 scroll-behavior: smooth;
 }
-
 body {
 margin:0;
 }
@@ -231,14 +230,13 @@ margin-right: 10px;
 nav {
 display: block;
 text-size: 20;
-width: 840px;
+width: 864px;
 height 20px;
 margin: 0px 0px 0px 1125px;
 }
 .nav ul {
 padding: 1em 0;
 background: #80694d;
-width: 864px;
 }
 .nav a {
 padding: 1em;
@@ -327,12 +325,13 @@ margin:0;
 }
 .fonpolosa{
 padding:8px 0 14px 0;
-background: #e6be8a;
+background: #BF9E73;
 }
 .banner{
-background:url("../images/banner_img0.jpg") no-repeat 0px 0px;
+background:url("../images/banner_img01.jpg") no-repeat 0px 0px;
 background-size:cover;
-min-height:812px;
+min-height:900px;
+padding: 25px;
 }
 .navbar-default {
 background-color: transparent;
@@ -372,21 +371,20 @@ margin: 110px 0px 0px 30px;
 }
 .banner-bottom-right{
 float:right;
-width: 100%;
+width: 50%;
 }
 .banner-info {
-	margin-top: 60px;
-    float: left;
-    margin-left: 175px;
-    text-align: left;
+	margin-top: 46px;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
 }
 .banner-info h3 {
-font-size: 36px;
+font-size: 65px;
 font-weight: 400;
 color: #000000;
 padding: 40px -40px 20px 30px;
 margin: 10px 10px 30px -150px;
-color: #33291E;
 }
 .banner-info p {
 font-size: 24px;
@@ -408,22 +406,137 @@ line-height: 25px;
 font-family: 'Source Sans Pro', sans-serif;
 font-weight: 30;
 }
-.Oplata{
-width: 1100;
-margin-left: -110px;
-font-size: 30px;
-line-height: 40px;
-color: #33291E;
+.nad{
+text-align: center;
+    font-size: 55px;
+    font-family: PlayfairDisplay-Regular;
+    margin-top: 15px;
 }
-.svaz{
-margin-top: 65px;
+.tovar{
+	height: 300;
+    width: 90%;
+    margin-left: 100px;
+    margin-top: 43;
+    background-color: #BF9E73;
+    border: 4px solid #B3946B;
 }
-.ght{
-    width: 920px;
-    margin-left: -150px;
-    text-align: center;
-    margin-top: 139px;
-    height: 90px;
-    font-size: 123px;
-    font-family: Lato-Regular;
-}  
+.tovar-k{
+	text-align: left;
+    width: 22%;
+    float: left;
+    font-size: 30px;
+    margin-top: 30;
+    padding-left: 400px;
+    font-family: PlayfairDisplay-Regular;
+}
+.tovar-opicanie{
+width: 70%;
+    margin-left: 400;
+    margin-top: 74px;
+    font-size: 21px;
+    font-family: PlayfairDisplay-Regular;
+}
+.tovar-opicanie2{
+	text-align: right;
+    width: 42%;
+    float: right;
+    font-size: 23px;
+    margin-top: 30;
+    margin-right: 45px;
+}
+.tovar-opicanie3{
+	text-align: right;
+    width: 42%;
+    float: right;
+    font-size: 25px;
+    margin-top: 19px;
+    margin-right: -224px;
+}
+.tovar-opicanie4{
+	text-align: right;
+    width: 42%;
+    float: right;
+    font-size: 25px;
+    margin-top: 23px;
+    margin-right: -239px;
+}
+.image {
+	position: relative;
+    display: inline-block;
+    height: 280;
+    margin-left: 30px;
+    margin-top: -189px;
+    margin-bottom: 6;
+    margin-right: 60;
+	float: left;
+    border: 4px solid #B3946B;
+}
+.image2 {
+	position: relative;
+    display: inline-block;
+    height: 280;
+    margin-left: 30px;
+    margin-top: -140px;
+    margin-bottom: 6;
+    margin-right: 60;
+	float: left;
+    border: 4px solid #B3946B;
+}
+hr{
+background-color: #B3946B;
+    border: none;
+    height: 3px;
+    margin-top: 19px;
+}
+button.knopka3 {
+	color: #000;
+    background: #CCA77A;
+    padding: 1px;
+    border-radius: 5px;
+    border: 2px solid #80694D;
+    width: 233px;
+    margin-bottom: 10px;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 21px;
+    margin-top: 50px;
+    float: right;
+    margin-right: 82px;
+}
+button.knopka3:hover { 
+background: #8C7354; 
+}
+button.knopka4 {
+	color: #000;
+    background: #CCA77A;
+    padding: 1px;
+    border-radius: 5px;
+    border: 2px solid #80694D;
+    width: 35px;
+    margin-bottom: 0px;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 17px;
+    margin-top: 0;
+    float: right;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+button.knopka4:hover { 
+background: #8C7354; 
+}
+button.knopka5 {
+	color: #000;
+    background: #CCA77A;
+    padding: 1px;
+    border-radius: 5px;
+    border: 2px solid #80694D;
+    width: 233px;
+    margin-bottom: 10px;
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 21px;
+    margin-top: 62px;
+    float: right;
+    margin-right: 93px;
+}
+button.knopka5:hover { 
+background: #8C7354; 
+}
