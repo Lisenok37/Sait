@@ -8,17 +8,17 @@ class ApiController extends Controller
 {
     public function indexAction(Request $request)
     {
-      return view('index');
+      return view('index',['Products' => (new ProductController())->show()]);
     }
 
     public function womanAction(Request $request)
     {
-      return view('woman');
+      return view('woman',['Products' => (new ProductController())->show()]);
     }
 
     public function childAction(Request $request)
     {
-      return view('child');
+      return view('child',['Products' => (new ProductController())->show()]);
     }
 
     public function dostavkaAction(Request $request)
@@ -30,6 +30,10 @@ class ApiController extends Controller
     {
       return view('korzina');
     }
+    public function registerAction(Request $request)
+    {
+      return view('register');
+    }
     public function getBaskets(Request $request)
     {
       return (new BasketController())->show();
@@ -37,5 +41,11 @@ class ApiController extends Controller
     public function getProducts(Request $request)
     {
       return (new ProductController())->show();
+    }
+    public function auth(Request $request)
+    {
+      dump($request->login);
+      dump($request->password);
+      return back()->withInput();
     }
 }

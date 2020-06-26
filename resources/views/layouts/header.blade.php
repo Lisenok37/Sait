@@ -1,12 +1,15 @@
 <html>
 <head>
 <title> @yield('title') </title>
-<link href="css/style — woman.css" rel="stylesheet" type="text/css" media="all" />
+
+ @yield('link')
+
 </head>
 <body>
-<div class="fonpolosa">
-</div>
+  @yield('fonpolosa')
+
 <div class="banner-top">
+
 <div class="container">
 <nav class="nav">
  <ul>
@@ -15,11 +18,15 @@
 <li><a href="/child">Одежда для детей</a></li>
 <li><a href="/dostavka">Оплата</a></li>
 <li><a href="/korzina">Корзина</a></li>
+<li><a href="/index">Войти</a></li>
+
+</div>
 </ul>
 </nav>
+
+@yield('polosa')
+
 </div>
-</div>
-<div class="fonpolosa">
 </div>
 
 @yield('tovar')

@@ -3,9 +3,23 @@
 @section('title')
 Одежда для детей - Women's clothing
 @endsection
+
+@section('link')
+<link href="css/style — woman.css" rel="stylesheet" type="text/css" media="all" />
+@endsection
+
+@section('fonpolosa')
+<div class="fonpolosa">
+</div>
+@endsection
+
 @section('tovar')
 <div id="tovar">
+  <div class="fonpolosa2">
+  </div>
 <section class="tovar">
+  <div class="banner2">
+  </div>
 <div class="polozenie">
 <div class="pictovar">
   <h3 class="head text-center">Ребенок</h3>

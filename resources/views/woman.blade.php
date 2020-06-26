@@ -4,114 +4,49 @@
 @section('title')
 Женская одежда - Women's clothing
 @endsection
+
+@section('link')
+<link href="css/style — woman.css" rel="stylesheet" type="text/css" media="all" />
+@endsection
+
+@section('fonpolosa')
+<div class="fonpolosa">
+</div>
+@endsection
+
 @section('tovar')
 <div id="tovar">
+  <div class="fonpolosa2">
+  </div>
 <section class="tovar">
+  <div class="banner">
+  </div>
 <div class="polozenie">
 <div class="pictovar">
   <h3 class="head text-center">Актуальные товары</h3>
   </header>
   </div>
-  <article>
-  <a  class="image"><img src="images/pic001.jpg" alt="" /></a>
-  <header>
-  <div class="Opisanie">
-  	Описание
-  </div>
-  <h3><a href="#">Блузка Diamond</a></h3>
-  </header>
-  <p>Цена: 800$</p>
-  <button class="knopka">Избранное</button>
-  <button class="knopka">В корзину</button>
-  </article>
-  <article>
-  <a  class="image"><img src="images/pic03.jpg" alt="" /></a>
-  <header>
-  <div class="Opisanie">
-  	Описание
-  </div>
-  <h3><a href="#">Платье Diamond</a></h3>
-  </header>
-  <p>Цена: 1200$</p>
-  <button class="knopka">Избранное</button>
-  <button class="knopka">В корзину</button>
-  </article>
-  <article>
-  <a  class="image"><img src="images/pic04.jpg" alt="" /></a>
-  <header>
-  <div class="Opisanie">
-  	Описание
-  </div>
-  <h3><a href="#">Блузка H&P</a></h3>
-  </header>
-  <p>Цена: 700$</p>
-  <button class="knopka">Избранное</button>
-  <button class="knopka">В корзину</button>
-  </article>
-  <article>
-  <a  class="image"><img src="images/pic01.jpg" alt="" /></a>
-  <header>
-  <div class="Opisanie">
-  	Описание
-  </div>
-  <h3><a href="#">Костюм "Тройка" Armany</a></h3>
-  </header>
-  <p>Цена: 2600$</p>
-  <button class="knopka">Избранное</button>
-  <button class="knopka">В корзину</button>
-  </article>
-  <article2>
-  <a  class="image"><img src="images/pic02.jpg" alt="" /></a>
-  <header>
-  <div class="Opisanie">
-  	Описание
-  </div>
-  <h3><a href="#">Платье Hice</a></h3>
-  </header>
-  <p>Цена: 1700$</p>
-  <button class="knopka">Избранное</button>
-  <button class="knopka">В корзину</button>
-  </article2>
-  <article2>
-  <a  class="image"><img src="images/pic07.jpg" alt="" /></a>
-  <header>
-  <div class="Opisanie">
-  	Описание
-  </div>
-  <h3><a href="#">Платье Glory</a></h3>
-  </header>
-  <p>Цена: 500$</p>
-  <button class="knopka">Избранное</button>
-  <button class="knopka">В корзину</button>
-  </article2>
-  <article2>
-  <a  class="image"><img src="images/pic08.jpg" alt="" /></a>
-  <header>
-  <div class="Opisanie">
-  	Описание
-  </div>
-  <h3><a href="#">Блузка Diamond</a></h3>
-  </header>
-  <p>Цена: 600$</p>
-  <button class="knopka">Избранное</button>
-  <button class="knopka">В корзину</button>
-  </article2>
-  <article2>
-  <a  class="image"><img src="images/pic11.jpg" alt="" /></a>
-  <header>
-  <div class="Opisanie">
-  	Описание
-  </div>
-  <h3><a href="#">Костюм Hape</a></h3>
-  </header>
-  <p>Цена: 1400$</p>
-  <button class="knopka">Избранное</button>
-  <button class="knopka">В корзину</button>
-  </article2>
+      @foreach($Products as $Product)
+      <article>
+      <a  class="image"><img src="{{$Product -> img_url}}" alt="" /></a>
+      <header>
+      <div style="height: 100px; margin-bottom: 5; width: 360; font-family: 'Lato-Regular'; font-size: 19px;">
+      	{{$Product->description}}
+      </div>
+  <h3><a href="#">{{$Product -> title}}</a></h3>
+      </header>
+      <p>Цена: {{$Product -> price}}$</p>
+      <button class="knopka">Избранное</button>
+      <button class="knopka">В корзину</button>
+      </article>
+      @endforeach
+
   <div class="pictovar">
   <h3 class="head text-center">Деловой стиль</h3>
   </header>
   </div>
+
+  @foreach($Products as $Product)
   <article2>
   <a  class="image"><img src="images/pic10.jpg" alt="" /></a>
   <header>
@@ -124,6 +59,8 @@
   <button class="knopka">Избранное</button>
   <button class="knopka">В корзину</button>
   </article2>
+  @endforeach
+
   <article2>
   <a  class="image"><img src="images/pic11.jpg" alt="" /></a>
   <header>

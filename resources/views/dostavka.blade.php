@@ -17,6 +17,7 @@
 
 @section('tovar')
 <div id="tovar">
+	
 <div class="banner">
 <div class="container">
 <div class="banner-bottom">
