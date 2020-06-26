@@ -449,7 +449,7 @@ margin-top: -20px;
 margin-bottom: -43px;
 }
 .banner2{
-background:url("../images/banner_img001.jpg") no-repeat 0px 0px;
+background:url("../images/banner_img777.jpg") no-repeat 0px 0px;
 background-size:cover;
 min-height: 812px;
 margin-top: -20px;
@@ -529,7 +529,7 @@ font-weight: 30;
 .tovar {
 position: relative;
 overflow: hidden;
-padding: 20px 0px 20px 0px;
+padding: 20px 0px -1px 0px;
 margin-bottom: 0;
 }
 .tovar .polozenie {

@@ -10,8 +10,8 @@
 
 
 @section('tovar')
-<div id="tovar">
-  
+<div style="width: 1952px;" id="tovar">
+
 <div class="banner">
 <hr>
 <h1 class="nad"> Корзина </h1>
